@@ -1,6 +1,6 @@
 IMAGE_NAME=vulkan
-TAG=reproducable
-CONTAINER_NAME=vulkan-repro
+TAG=nvidia-runtime
+CONTAINER_NAME=vulkan-nvidia-runtime
 
 .PHONY: all build push start stop attach test run
 
